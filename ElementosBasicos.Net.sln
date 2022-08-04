@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32228.430
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraMontos", "CalculadoraMontos\CalculadoraMontos.csproj", "{0B4FB6D1-4B35-49B3-990B-2B829CD28C0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculadoraMontos", "CalculadoraMontos\CalculadoraMontos.csproj", "{0B4FB6D1-4B35-49B3-990B-2B829CD28C0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromedioNotas", "PromedioNotas\PromedioNotas.csproj", "{30E434B3-BBD3-4CA9-A38E-C00C6D2F702A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PromedioNotas", "PromedioNotas\PromedioNotas.csproj", "{30E434B3-BBD3-4CA9-A38E-C00C6D2F702A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionMedidas", "ConversionMedidas\ConversionMedidas.csproj", "{A4224736-E183-4F63-BFAF-1EABB0E93A55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversionMedidas", "ConversionMedidas\ConversionMedidas.csproj", "{A4224736-E183-4F63-BFAF-1EABB0E93A55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapitalEmpresa", "CapitalEmpresa\CapitalEmpresa.csproj", "{33B947C0-3B2A-4D99-8833-415BE32F6399}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalEmpresa", "CapitalEmpresa\CapitalEmpresa.csproj", "{33B947C0-3B2A-4D99-8833-415BE32F6399}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pjPagoEmpleados", "pjPagoEmpleados\pjPagoEmpleados.csproj", "{DADDD1F0-F96D-4161-9E8D-E44543662C5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{33B947C0-3B2A-4D99-8833-415BE32F6399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33B947C0-3B2A-4D99-8833-415BE32F6399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33B947C0-3B2A-4D99-8833-415BE32F6399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DADDD1F0-F96D-4161-9E8D-E44543662C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADDD1F0-F96D-4161-9E8D-E44543662C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADDD1F0-F96D-4161-9E8D-E44543662C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADDD1F0-F96D-4161-9E8D-E44543662C5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
