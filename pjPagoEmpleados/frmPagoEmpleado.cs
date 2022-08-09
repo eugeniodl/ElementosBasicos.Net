@@ -22,9 +22,37 @@ namespace pjPagoEmpleados
             double sueldoNeto = sueldoBruto - descuento;
 
             //Imprimiendo resultados
-            lblMontoBruto.Text = sueldoBruto.ToString();
-            lblMontoDescuento.Text = sueldoBruto.ToString();
-            lblMontoNeto.Text = sueldoNeto.ToString();
+            lblMontoBruto.Text = sueldoBruto.ToString("C");
+            lblMontoDescuento.Text = sueldoBruto.ToString("C");
+            lblMontoNeto.Text = sueldoNeto.ToString("C");
+        }
+
+        private void frmPagoEmpleado_Load(object sender, EventArgs e)
+        {
+            lblMontoBruto.Text = "";
+            lblMontoDescuento.Text = "";
+            lblMontoNeto.Text = "";
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtEmpleado.Clear();
+            txtHoras.Clear();
+            txtCosto.Clear();
+            lblMontoBruto.Text = "";
+            lblMontoDescuento.Text = "";
+            lblMontoNeto.Text = "";
+            txtEmpleado.Focus();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            DialogResult r = MessageBox.Show("¿Está seguro de salir?",
+                                             "Control de pago",
+                                             MessageBoxButtons.YesNo,
+                                             MessageBoxIcon.Question);
+            if(r == DialogResult.Yes)
+                this.Close();
         }
     }
 }
